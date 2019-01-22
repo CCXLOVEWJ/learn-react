@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <form>
+      标题
+      <input
+        onChange={[Function]}
+        type="text"
+        value="taobao"
+      />
+      <input
+        onClick={[Function]}
+        type="submit"
+        value="tap"
+      />
+    </form>
+  </div>
+  <div
+    className="webList"
+  />
+  <div
+    className="nextPage"
+  >
+    <button
+      className="next-page"
+      onClick={[Function]}
+    >
+       NEXT 
+    </button>
+     
+  </div>
+</div>
+`;
+
+exports[`App 快照 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <form>
+      标题
+      <input
+        onChange={[Function]}
+        type="text"
+        value="taobao"
+      />
+      <input
+        onClick={[Function]}
+        type="submit"
+        value="tap"
+      />
+    </form>
+  </div>
+  <div
+    className="webList"
+  />
+  <div
+    className="nextPage"
+  >
+    <button
+      className="next-page"
+      onClick={[Function]}
+    >
+       NEXT 
+    </button>
+     
+  </div>
+</div>
+`;
+
+exports[`Button 一个有效的快照 1`] = `
+<button
+  className=""
+>
+  get next page
+</button>
+`;
+
+exports[`Search 一个有效的快照 1`] = `
+<div>
+  <form>
+    search
+    <input
+      type="text"
+    />
+    <input
+      type="submit"
+      value="tap"
+    />
+  </form>
+</div>
+`;
+
+exports[`Show 有效的快照 1`] = `
+<div
+  className="webList"
+>
+  <div
+    className="web"
+  >
+    <span>
+      标题: 
+      1
+    </span>
+    <p>
+      链接: 
+      <a />
+    </p>
+    <p>
+      作者:
+      1
+       发表时间:
+    </p>
+  </div>
+  <div
+    className="web"
+  >
+    <span>
+      标题: 
+      2
+    </span>
+    <p>
+      链接: 
+      <a />
+    </p>
+    <p>
+      作者:
+      2
+       发表时间:
+    </p>
+  </div>
+</div>
+`;

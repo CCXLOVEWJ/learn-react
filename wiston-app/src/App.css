@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.webList {
+  max-width: 500px;
+  margin: 0 auto;
+  color: #ccc;
+}
+
+.web {
+  padding: 5px 0;
+  margin-top: 10px;
+  background-color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.nextPage {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.next-page {
+  width: 100%;
+  font-size: 15px;
+  color: #9090AA;
+  text-align: center;
+  border: 3px solid #BBB;
+}
+
+.loading {
+  width: 20px;
+  height: 20px;
+  animation: loading infinite 2s linear;
+}
+
+.sort {
+  margin-top: 10px;
+}
+
+.sort-inline {  
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  background: transparent;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* .sort-inline img {
+  width: 10px;
+  height: 10px;
+  margin-left: 2px;
+  transform: rotateZ(180deg);
+} */
+
+.sort-active {
+  border: 0;
+  border-bottom: 2px solid #38BB6C;
+}
+
+/* .sort-active img {
+  transform: rotateZ(180deg)
+} */
